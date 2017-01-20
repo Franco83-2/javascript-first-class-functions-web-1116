@@ -3,9 +3,7 @@ function receivesAFunction(callback) {
 }
 
 function returnsANamedFunction() {
-  function newFunction() {
-    return "does nothing"
-  }
+  newFunction = () => console.log("does nothing")
   return newFunction
 }
 
